@@ -8,3 +8,9 @@ mul=$(( a*b ))
 echo "Multiply $a * $b = $mul" 
 ans=$(( a + b))
 echo "SUM of $a + $b = $ans"
+START=1
+END=5
+for i in {$START..$END}
+do
+   echo "$i"
+done
