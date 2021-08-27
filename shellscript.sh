@@ -8,3 +8,14 @@ mul=$(( a*b ))
 echo "Multiply $a * $b = $mul" 
 ans=$(( a + b))
 echo "SUM of $a + $b = $ans"
+valid=true
+count=1
+while [ $valid ]
+do
+echo $count
+if [ $count -eq 5 ];
+then
+break
+fi
+((count++))
+done
