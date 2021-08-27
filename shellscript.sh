@@ -6,3 +6,20 @@ printf "Today's date with printf - $DATE\n";
 echo "Todays date with echo - $DATE"
 ans=$(( a + b))
 echo "SUM of $a + $b = $ans"
+START=1
+END=5
+for i in {$START..$END}
+do
+   echo "$i"
+done
+valid=true
+count=1
+while [ $valid ]
+do
+echo $count
+if [ $count -eq 5 ];
+then
+break
+fi
+((count++))
+done
