@@ -25,4 +25,5 @@ break
 fi
 ((count++))
 done
+echo "You are executing this script from $PWD Location"
 echo "Hello World!"
